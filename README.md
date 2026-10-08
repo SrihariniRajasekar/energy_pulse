@@ -44,6 +44,14 @@ Run steps individually with `python ingest.py`, `python forecast.py`, `python co
 - ARIMA on price levels is a baseline; it will mostly project near-random-walk behavior. That is
   expected and worth stating in your write-up/interview.
 
+## Output
+<img width="953" height="419" alt="image" src="https://github.com/user-attachments/assets/725df9f1-e24e-4f91-a4cb-88ef6ce3a700" />
+<img width="949" height="407" alt="image" src="https://github.com/user-attachments/assets/fc506075-292d-4124-ad43-9ff14aee6486" />
+<img width="955" height="332" alt="image" src="https://github.com/user-attachments/assets/1e18a3d8-329b-4bfc-816b-1c5aa81a3d43" />
+<img width="941" height="349" alt="image" src="https://github.com/user-attachments/assets/dbe07594-ab56-43e0-8bd5-5bfb219cbf83" />
+<img width="956" height="383" alt="image" src="https://github.com/user-attachments/assets/9587c100-935d-48a0-bc6d-fde0f3abff15" />
+
+
 ## Possible extensions
 - Add GARCH for volatility, or SARIMAX with storage/inventory exogenous variables from EIA.
 - Scheduled daily refresh (Task Scheduler / GitHub Actions).
