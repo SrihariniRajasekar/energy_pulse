@@ -14,6 +14,7 @@ from config import FORECAST_HORIZON, SERIES
 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 TRAIN_WINDOW = 1500  # most recent business-day observations
 

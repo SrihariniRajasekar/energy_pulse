@@ -58,6 +58,7 @@ def generate_commentary(key: str) -> str:
     resp = client.chat.completions.create(
         model=GROQ_MODEL,
         temperature=0.3,
+        max_tokens=2000,  # headroom: gpt-oss reasoning tokens count toward this
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": f"Market data:\n{stats}"},
